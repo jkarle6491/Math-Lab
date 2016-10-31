@@ -25,7 +25,7 @@ public class MathLab02st {
 class Rational {
 	private int num, den, oNum, oDen;
 
-	// Rational
+	// Rationaly
 	public Rational(int n, int d) {
 		num = oNum = n;
 		den = oDen = d;
