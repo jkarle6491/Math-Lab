@@ -124,7 +124,6 @@ class Rational
 		
 		firstNum = r1.getNum() * r2.getNum();
 		firstDen = r1.getDen() * r2.getDen();
-		System.out.println(firstNum + " " + firstDen);
 		reduce();
 
 	}
