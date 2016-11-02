@@ -44,8 +44,6 @@ class Rational {
 
 	// getDecimal
 	public double getDecimal() {
-		System.out.println(num + " " + den);
-		System.out.println(oNum + " " + oDen);
 
 		return (double) num / den;
 		
@@ -76,7 +74,6 @@ class Rational {
 	public void reduce()
 	{
 		int gcf = getGCF(oNum, oDen);
-		System.out.println(gcf);
 		num = oNum/gcf;
 		den = oDen/gcf;
 	}
